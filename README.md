@@ -8,6 +8,8 @@ To run from the terminal, navigate to the app folder and run `node app.js -a="{a
 
 Note that the value added after the -a flag requires quotes if it's a multi-word string, but they can be omitted if you're just entering a ZIP code or single-word city name. The equal sign is also optional.
 
+*After downloading, be sure to run `npm install` to get the related node dependencies.*
+
 
 ## How to update terminal settings on a Mac
 
