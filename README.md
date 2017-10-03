@@ -1,8 +1,7 @@
-##Terminal Weather App
+# Terminal Weather App
 
------
-###About 
------
+## About 
+
 This Node app takes in an address, city or ZIP code from the user, converts it to latitude and longitude through the Google Geocode API, and returns the current temperature from the Dark Sky weather API, as well as the forecasts for today and tomorrow.
 
 To run from the terminal, navigate to the app folder and run `node app.js -a="{address, city or ZIP}"` (without curly braces)
@@ -10,9 +9,8 @@ To run from the terminal, navigate to the app folder and run `node app.js -a="{a
 Note that the value added after the -a flag requires quotes if it's a multi-word string, but they can be omitted if you're just entering a ZIP code or single-word city name. The equal sign is also optional.
 
 
------
-###How to update terminal settings on a Mac
------
+## How to update terminal settings on a Mac
+
 If you want to make checking the weather as fast as typing the word "weather," keep reading. 
 
 You're going to want to create a new alias - weather - in your terminal profile to automatically run the file from any directory. 
