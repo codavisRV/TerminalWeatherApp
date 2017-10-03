@@ -1,7 +1,7 @@
-#Terminal Weather App
+##Terminal Weather App
 
 -----
-##About 
+###About 
 -----
 This Node app takes in an address, city or ZIP code from the user, converts it to latitude and longitude through the Google Geocode API, and returns the current temperature from the Dark Sky weather API, as well as the forecasts for today and tomorrow.
 
@@ -11,7 +11,7 @@ Note that the value added after the -a flag requires quotes if it's a multi-word
 
 
 -----
-##How to update terminal settings on a Mac
+###How to update terminal settings on a Mac
 -----
 If you want to make checking the weather as fast as typing the word "weather," keep reading. 
 
@@ -21,7 +21,7 @@ You're going to want to create a new alias - weather - in your terminal profile 
 
 2. Open a new finder window and navigate to your user folder. 
 
-3. Look for a file titled ".profile". It's usually a hidden file, so you might need to show hidden files. `Shift + Cmmd + .` will toggle showing/hiding hidden files. !!! Note: Use caution editing this file. 
+3. Look for a file titled ".profile". It's usually a hidden file, so you might need to show hidden files. `Shift + Cmmd + .` will toggle showing/hiding hidden files. _Note: Use caution editing this file._
 
 4. In this file, the # signifies a comment. To differentiate my aliases from those defined by the system or other apps, I added a line below the other aliases that says "<em>############## User-defined aliases########</em>" and then "<em>#launch weather app<em>" on the next line.
 
